@@ -1,0 +1,156 @@
+h1, h2{
+    padding-left: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #489CC7;
+}
+  
+nav ul li {
+    float: left;
+}
+  
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: large;
+}
+  
+li a:hover {
+    background-color: #316A87;
+}
+
+.my-photo{
+    height: 300px;
+    width:200px;
+    padding: 20px;
+    float: left;
+    padding-top: 40px;
+}
+
+.my-photo-zivotopis {
+    height: 300px;
+    width:200px;
+    padding: 20px;
+    float: left;
+}
+
+section p {
+    padding: 15px 20px 0px 20px;
+    font-size: 22px;
+}
+
+aside{
+    width:200px;
+    float:right;
+    background-color: #316A87;
+    border: 1px solid  #4CA6D4;
+    padding: 5px;
+    font-size: 18px;
+    margin: 8px;
+}
+
+.about-me{
+    padding: 20px;
+    font-size: larger;
+}
+
+body{
+    font-family: 'Cambria';
+    background-color: #1A3847;
+    color: white;
+}
+
+table {
+    padding-top: 40px;
+    margin: auto;
+    width: 100%;
+    border-color: #4CA6D4;
+}
+
+th{
+    border: 1px solid #4CA6D4;
+    text-align: center;
+    padding: 7px 0px;
+}
+
+td{
+    border: 1px solid #4CA6D4;
+    text-align: center;
+    padding: 7px 0px;
+}
+
+#table-header{
+    border: 1px solid #4CA6D4;
+    text-align: center;
+    padding: 7px 0px;
+}
+
+.prednaska{
+    background-color: rgb(13, 94, 49);
+}
+
+.cviko{
+    background-color: rgb(185, 62, 62);
+}
+
+.telesna{
+    background-color: rgb(177, 117, 5);
+}
+
+.zivotopis-p{
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+}
+
+table tr td ul {
+    margin: 0px;
+}
+
+table tr td ul li{
+    text-align: left;
+}
+
+.zivotopis{
+    display:flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width:90%;
+    height: auto;
+    padding: auto;
+}
+
+.zivotopis-left{
+    background-color: #489CC7;
+    margin-left: auto;
+    margin-right: 0;
+    width:45%;
+    height:auto;
+    padding: 5%;
+    display: table;
+}
+
+.zivotopis-right{
+    background-color: #0a4766;
+    margin-left: 0;
+    margin-right: auto;
+    width:45%;
+    height: auto;
+    vertical-align: top;
+    padding: 5%;
+}
+
+.zivotopis-left-text{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: medium;
+}
